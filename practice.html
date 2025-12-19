@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice HTML</title>
+</head>
+<body>
+
+  <!--Header Section-->
+  <Header>
+    <nav>
+      <a href="#homepage">Homepage</a>
+      <a href="#aboutpage">Aboutpage</a>
+    </nav>
+    <h1>Otishi Islam Puspi</h1>
+    <p>Iam a web developer</p>
+  </Header>
+          
+  <!--Main Section-->
+  <main>
+    <form action="">
+      <h2>Contact form</h2>
+      <lebel for="name">Full Name:</lebel>
+      <input type="text" id="name" name="fullname" placeholder="Enter your full name"><br><br>
+     
+    </form>
+    <fieldset>
+    <legend>Personal Information</legend><br>
+     <form action="">
+        
+        <lebel for="email">Email:</lebel>
+        <input type="email" id="email" name="useremail" placeholder="Enter your email" required>
+      </form>
+      </fieldset>
+        <fieldset>
+        <lebel for="morning">Morning(10AM-1PM)</lebel>
+        <input type="radio" name="timing" id="morning" value="morning" checked><br>
+        <lebel for="afternoon">Afternoon(1.30PM-4PM)</lebel>
+        <input type="radio" name="timing" id="afternoon" value="afternoon" checked>
+        </fieldset><br>
+      <fieldset>
+        <lebel>Additional skills(optional)</lebel>
+        <input tyoe="checkbox" name="skills" id="git">
+        <lebel for="git">Git & Github</lebel><br>
+        <lebel for="design">UI/UX Design</lebel><br>
+        <input type="checkbox" name="skills" id="db">
+        <lebel for="db">Database Management</lebel>
+        </fieldset>
+
+        <h2 align="center">Audio player</h2>
+        <audio controls>
+          <source src="music.mp3" type="audio/mpag">
+          Your browser doesn't support audio tag
+        </audio><br>
+
+        <h2 align="center">Video</h2>
+        <video>
+          <source src="tutorial.mp4">
+        </video>
+
+   <iframe 
+  width="799" 
+  height="369" 
+  src="https://www.youtube.com/embed/hKLsdlB-VVU" 
+  title="Rehman Dakait ka Arabic Swag 💥🔥 | Powerful Entry | Akshaye Khanna | Dhurandar Viral Song | Baloochi" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+
+
+      
+  </main>
+</body>
+</html>
