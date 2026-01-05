@@ -12,17 +12,35 @@
     background-color: antiquewhite;
   }
 .block-element{
+  background-color: black;
   display:block;
   color:darkred;
-  height:5px;
-  width:5px;
+  height:auto;
+  width:100%;
+  padding:20px;
 }
 
-.inline-element{
+.inline-element p{
   display:inline;
   color:darkblue;
+  background-color: aqua;
+  padding:50px;
+  margin:20px;
 
 }
+.inline-element {
+  display: inline;   /* change */
+  color: darkblue;
+  background-color: aqua;
+  padding: 20px;           /* optional change */
+  margin: 20px;
+}
+
+.inline-element p{
+  padding:20px;
+  margin:20px;
+}
+
 
 .inline-block-element{
   display:inline-block;
@@ -39,22 +57,26 @@
 
 
 </style>
-<h1>Iam a web developer</h1>
+
 </head>
 
 
 <body>
-  <p class="block-element">I have 4 Cats.</p><br><br><br>
+  <h1>Iam a web developer</h1>
+  <div  class="block-element">
+  <p>I have 4 Cats.</p></div>
 
-  <p class="inline-element">My name is Otishy Islam Puspi.</p>
+  <div  class="inline-element">
+  <p>My name is Otishy Islam Puspi.</p>
 
-  <p class="inline-element">My favourite color is pink💗.</p>
+  <p>My favourite color is pink💗.</p>
 
-  <p class="inline-element">I am a passionate web developer who loves turning ideas into functional and user-friendly websites.
+  <p>I am a passionate web developer who loves turning ideas into functional and user-friendly websites.
 I enjoy working with HTML, CSS, and modern web technologies to create clean designs.
 Learning new skills and improving my coding logic is part of my daily routine.
 I believe in writing simple, efficient code that solves real problems.
 Every project helps me grow as a better developer.</p>
+    </div>
 
   <p class="inline-block-element">I have 1 brother and 1 sister.</p>
   <p class="inline-block-element">My brother read in class five.</p>
