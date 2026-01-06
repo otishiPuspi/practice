@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practice grid layout</title>
+  <style>
+    .container{
+      display:grid;
+      justify-content: center;
+      font-size: 30px;
+      color:darkblue;
+      gap:5px;
+      grid-template-columns:200px 150px 150px;
+      grid-template-rows:200px 150px 150px;
+      grid-row-gap:5px;
+      grid-column-gap:5px ;
+    }
+
+
+
+    .box{
+     padding:20px;
+      margin:20px;
+      background-color:lightblue;
+    }
+
+
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="item-1 box">Item-1</div>
+  <div class="item-2 box">Item-2</div>
+  <div class="item-3 box">Item-3</div>
+  <div class="item-4 box">Item-4</div>
+  <div class="item-5 box">Item-5</div>
+  <div class="item-6 box">Item-6</div>
+  <div class="item-7 box">Item-7</div>
+  <div class="item-8 box">Item-8</div>
+  <div class="item-9 box">Item-9</div>
+</div>
+</body>
+</html>
