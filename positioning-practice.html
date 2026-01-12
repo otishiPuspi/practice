@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Position Practice</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* page height বাড়ানোর জন্য */
+body{
+  height: 2000px;
+  font-family: Arial;
+}
+
+/* heading style */
+h1{
+  text-align: center;
+  color: purple;
+}
+
+/* common box style */
+.box{
+  width: 250px;
+  padding: 15px;
+  margin: 20px;
+  border: 2px solid rgb(219, 27, 27);
+  background-color: #ce1adb;
+}
+
+/* 1️⃣ Static */
+.static{
+  position: static;
+  background-color: #ffd6d6;
+}
+
+/* 2️⃣ Relative */
+.relative{
+  position: relative;
+  top: 20px;
+  left: 30px;
+  background-color: #d6f0ff;
+}
+
+/* parent for absolute */
+.parent{
+  position: relative;
+  height: 200px;
+  border: 2px dashed gray;
+  margin: 20px;
+}
+
+/* 3️⃣ Absolute */
+.absolute{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #d6ffd6;
+}
+
+/* 4️⃣ Fixed */
+.fixed{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #e0d6ff;
+}
+
+/* 5️⃣ Sticky */
+.sticky{
+  position: sticky;
+  top: 0;
+  background-color: #fff5cc;
+}
+
+  </style>
+</head>
+<body>
+
+  <h1>CSS Position Practice</h1>
+
+  <div class="static box">
+    <h3>Static</h3>
+    <p>This is static position</p>
+  </div>
+
+  <div class="relative box">
+    <h3>Relative</h3>
+    <p>This is relative position</p>
+  </div>
+
+  <div class="parent">
+    <div class="absolute box">
+      <h3>Absolute</h3>
+      <p>This is absolute position</p>
+    </div>
+  </div>
+
+  <div class="fixed box">
+    <h3>Fixed</h3>
+    <p>This is fixed position</p>
+  </div>
+
+  <div class="sticky box">
+    <h3>Sticky</h3>
+    <p>This is sticky position</p>
+  </div>
+
+</body>
+</html>
