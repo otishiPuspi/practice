@@ -1,7 +1,21 @@
 document.getElementById("btn").onclick=function(){
   let username;
+  let age;
+  let hobbies;
+  let address;
   username=document.getElementById("username").value;
   console.log(username);
+  age=document.getElementById("age").value;
+  console.log(age);
+  document.getElementById("title").innerHTML=`Welcome ${username}`;
+    document.getElementById("Age").innerHTML=`Your age is ${age}`;
+    hobbies=document.getElementById("hobbies").value;
+    console.log(hobbies);
+    document.getElementById("Hobbies").innerHTML=`Your hobbies are ${hobbies}`;
+    address=document.getElementById("address").value;
+    console.log(address);
+    document.getElementById("Address").innerHTML=`Your address is ${address}`;
+  
 }
 
 let name="Otishi Islam Puspi";
