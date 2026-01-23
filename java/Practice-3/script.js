@@ -22,3 +22,11 @@ console.log(num," x " ,i," = ",num*i);
 //console.log(`${num} x ${i} = ${num*i}`);
 }
 }
+
+let count = 1;
+while(count<=5){
+  console.log("While count:" +count);
+  count++;
+}
+
+
