@@ -30,4 +30,29 @@ console.log(...array);
   //console.log(d[n-2]);
   console.log(d[(d.length-2)]);
 
+  //Q1. Sum All Numeric Values in an Object
+// Example object
+ let scores = {
+     math: 80,
+     english: 75,
+     science: 90,
+     art: 50
+ };
+ let sum = 0;
+ for(let item in scores){
+  sum += scores[item];
+ }
+
+ console.log(sum);
+
+
+
+
+
+
+
+
+
+
+
   
